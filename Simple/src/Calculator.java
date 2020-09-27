@@ -12,7 +12,6 @@ public class Calculator {
 		System.out.println(	java.lang.Math.sin(90));
 	
 		int a[] = {1,2,3,2,1};
-		for (int i=0;j<a.length-)
 		
 				
 		

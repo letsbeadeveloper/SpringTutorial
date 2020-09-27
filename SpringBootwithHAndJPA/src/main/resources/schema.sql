@@ -6,3 +6,9 @@ CREATE TABLE country (
     name VARCHAR(128) NOT NULL,
     PRIMARY KEY (id)
 );
+
+CREATE TABLE NATION (
+    id   INTEGER      NOT NULL AUTO_INCREMENT,
+    name VARCHAR(128) NOT NULL,
+    PRIMARY KEY (id)
+);
