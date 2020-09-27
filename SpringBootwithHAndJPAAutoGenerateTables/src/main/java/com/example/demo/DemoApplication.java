@@ -10,6 +10,19 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 
+/**
+ * 
+ * @author admin
+ * 
+@ComponentScan("com.example.demo")
+   @EnableJpaRepositories("com.example.demo")
+   @EntityScan("com.example.demo")
+   
+   These Annotation are optoins but if your project wont work try with them 
+ *
+ */
+
+@EntityScan("com.example.demo")
 public class DemoApplication {
 
 	public static void main(String[] args) {
